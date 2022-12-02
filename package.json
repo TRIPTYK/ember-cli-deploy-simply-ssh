@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha tests/index-nodetest.js"
   },
-  "repository": "https://github.com/AutoCloud/ember-cli-deploy-simply-ssh",
+  "repository": "https://github.com/TRIPTYK/ember-cli-deploy-simply-ssh",
   "engines": {
     "node": ">= 4.0.0"
   },
