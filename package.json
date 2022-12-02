@@ -1,7 +1,7 @@
 {
   "name": "@triptyk/ember-cli-deploy-simply-ssh",
   "version": "1.0.3",
-  "private": "false", 
+  "private": false, 
   "description": "Deploy your Ember index.html and assets via ssh.",
   "scripts": {
     "test": "mocha tests/index-nodetest.js"
