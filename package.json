@@ -21,6 +21,9 @@
     "ember-addon",
     "ember-cli-deploy-plugin"
   ],
+  "publishConfig": {
+    "access": "public"
+  },  
   "dependencies": {
     "ember-cli-deploy-plugin": "0.2.9",
     "minimatch": "^5.1.1",
