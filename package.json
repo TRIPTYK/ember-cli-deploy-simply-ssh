@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Deploy your Ember index.html and assets via ssh.",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha tests/index-nodetest.js"
+    "test": "mocha tests/index-nodetest.js"
   },
   "repository": "https://github.com/AutoCloud/ember-cli-deploy-simply-ssh",
   "engines": {
@@ -14,7 +14,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^3.5.0"
+    "mocha": "^10.1.0"
   },
   "keywords": [
     "ember-addon",
@@ -22,8 +22,8 @@
   ],
   "dependencies": {
     "ember-cli-deploy-plugin": "0.2.9",
-    "minimatch": "^3.0.4",
-    "node-ssh": "4.2.3",
-    "rsvp": "^3.3.3"
+    "minimatch": "^5.1.1",
+    "node-ssh": "13.0.0",
+    "rsvp": "^4.8.5"
   }
 }

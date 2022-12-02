@@ -36,7 +36,7 @@ module.exports = function(deployTarget) {
         host: process.env.SSH_HOST,
         port: process.env.SSH_PORT,
         username: process.env.SSH_USER,
-        privateKey: process.env.SSH_KEY
+        privateKeyPath: process.env.SSH_KEY
       },
       dir: '/var/www/app',
       keep: 5
